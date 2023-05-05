@@ -6,7 +6,7 @@ import Home from './pages/Home';
 import Table from './pages/Table';
 import Login from './pages/Login';
 import Nopage from './pages/Nopage';
-
+import Test from './pages/Test';
 
 const Apps = () => {
   return (
@@ -17,6 +17,7 @@ const Apps = () => {
             <Route index element={<Home />} />
             <Route path='login' element={<Login />} />
             <Route path='table' element={<Table />} />
+            <Route path='test' element={<Test />} />
             <Route path='*' element={<Nopage />} />
           </Route>
         </Routes>
