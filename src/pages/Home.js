@@ -1,4 +1,3 @@
-import { ClassNames } from '@emotion/react';
 import '../CSS files/Home.css';
 
 const Home = () => {
